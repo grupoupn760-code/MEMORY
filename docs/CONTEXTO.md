@@ -1,11 +1,13 @@
-# RipleyComprasMAUI — contexto para continuar
+# RipleyComprasMAUI — contexto del proyecto
 
-Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 14/11/2026
+Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 16/11/2026
 
 ## Objetivo
 Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una caja de Ripley en tres subprocesos: **Preventa** (carrito), **Venta** (fila FIFO, tarjeta, pago simulado) y **Postventa** (boleta simulada y consultas). Se usan estructuras de datos manuales y la persistencia es en JSON.
 
 ## Estructura (rutas desde la raíz del repo; la solución está en `RipleyComprasMAUI/`)
+- `CLAUDE.md`: reglas de trabajo (leer este archivo al empezar y actualizarlo al terminar).
+- `docs/CONTEXTO.md` (este archivo) y `docs/HISTORIAL.md` (una línea fechada por sesión).
 - `RipleyComprasMAUI/RipleyComprasMAUI.slnx` / `.sln`: la solución tiene 2 proyectos (versión .NET 10).
 - `variantes/net9/`: los dos `.csproj` para .NET 9; para cambiar de versión, reemplaza los de la solución por estos. Todo lo demás es idéntico.
 - `RipleyComprasMAUI/RipleyComprasMAUI/Models/`: `Producto`, `ItemCarrito`, `Venta` (contiene su `Boleta`) y `Boleta`.
@@ -39,7 +41,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 ## Estado actual
 - **Funciona (verificado):** la réplica en Python pasa 63/63, ejecutada el 07/11/2026. XAML bien formado, handlers y `x:Name` coinciden, llaves balanceadas.
 - **.NET 10:** compila y arranca en la PC del usuario. La primera versión de `EstilosNativos` lanzaba una `COMException`; ya está corregida.
-- **Repositorio:** el código, la documentación y este archivo están subidos (14/11/2026).
+- **Repositorio:** el código y la documentación están subidos; desde el 16/11/2026 la memoria vive en `docs/` (antes `RipleyContext.md` en la raíz).
 - **Sin confirmar:** que la corrección funcione en Windows, que ambas variantes compilen sin advertencias y cómo se ve la nueva interfaz.
 - Casos P-01 a P-19 y `Comprobaciones`: **propuestos**, sin ejecutar ni capturas.
 
