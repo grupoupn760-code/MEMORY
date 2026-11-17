@@ -1,6 +1,6 @@
 # RipleyComprasMAUI — contexto del proyecto
 
-Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 16/11/2026
+Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 17/11/2026
 
 ## Objetivo
 Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una caja de Ripley en tres subprocesos: **Preventa** (carrito), **Venta** (fila FIFO, tarjeta, pago simulado) y **Postventa** (boleta simulada y consultas). Se usan estructuras de datos manuales y la persistencia es en JSON.
@@ -9,6 +9,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - `CLAUDE.md`: reglas de trabajo (leer este archivo al empezar y actualizarlo al terminar).
 - `docs/CONTEXTO.md` (este archivo) y `docs/HISTORIAL.md` (una línea fechada por sesión).
 - `docs/REVISION_INFORME.md`: revisión del informe `EDD_EF_Grupo07.pdf` frente al código (16/11/2026).
+- `docs/informe/EDD_EF_Grupo07_corregido.docx`: informe corregido en Word (17/11/2026).
 - `RipleyComprasMAUI/RipleyComprasMAUI.slnx` / `.sln`: la solución tiene 2 proyectos (versión .NET 10).
 - `variantes/net9/`: los dos `.csproj` para .NET 9; para cambiar de versión, reemplaza los de la solución por estos. Todo lo demás es idéntico.
 - `RipleyComprasMAUI/RipleyComprasMAUI/Models/`: `Producto`, `ItemCarrito`, `Venta` (contiene su `Boleta`) y `Boleta`.
@@ -45,16 +46,15 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - **Repositorio:** el código y la documentación están subidos; desde el 16/11/2026 la memoria vive en `docs/` (antes `RipleyContext.md` en la raíz).
 - **Sin confirmar:** que la corrección funcione en Windows, que ambas variantes compilen sin advertencias y cómo se ve la nueva interfaz.
 - Casos P-01 a P-19 y `Comprobaciones`: **propuestos**, sin ejecutar ni capturas.
-- **Informe (EDD_EF_Grupo07.pdf, 32 págs.):** revisado. Cálculos, árbol, mensajes y datos coinciden con el código; los diagramas de diseño, los casos CP-01/02/08/11/12/16/17, el Anexo B y el enlace del repositorio no. Detalle en `docs/REVISION_INFORME.md`.
+- **Informe:** corregido en Word (29 págs.) y alineado con el código: título, alcance, bitácora renumerada (Imágenes 1–7), tablas y figuras numeradas, diagramas TO-BE, estados, clases y secuencia rehechos, grafo agregado, CP-01 a CP-19 y Anexos B y D sin restos de la billetera. Foto de la boleta difuminada. Quedan notas amarillas para el equipo.
 
 ## Pendientes (por prioridad)
 1. Compilar y ejecutar con la corrección (Limpiar → Recompilar → F5) en .NET 10 y luego en .NET 9.
 2. P-19: revisar el contraste de `pkTarjeta` en tema claro y oscuro de Windows.
 3. Ejecutar `Comprobaciones` (`dotnet run`) y los casos P-01 a P-18, con capturas fechadas.
-4. Corregir el informe según `docs/REVISION_INFORME.md`: difuminar datos personales de las fotos, quitar restos de la billetera móvil y alinear diagramas y casos de prueba con el código.
-5. Decidir el lado de A8/A9 (mensaje de Deshacer y "No se encontró la boleta"): cambiar el informe o una línea de código.
+4. Completar las notas amarillas del Word: foto del carrito con ahorro S/ 20.00 (o declararlo caso construido), horas de la bitácora frente al reloj del terminal, capturas de la app, fecha de ejecución de pruebas y enlace del repositorio que se entrega. Actualizar el índice en Word.
 
 ## Problemas abiertos
 - `COMException` en `EstilosNativos.Pintar` (`ComboBoxBackgroundUnfocused`): corregida, falta confirmarla.
-- Las fotos de la boleta y del ingreso de datos del informe muestran datos personales reales legibles.
+- El carrito A (S/ 199.97, ahorro S/ 20.00) no tiene foto de respaldo en el informe; las horas de la bitácora no coinciden con el reloj del terminal.
 - Ni el código C# ni la interfaz se compilaron fuera de la PC del usuario; puede haber advertencias de .NET 10 (por ejemplo, `DatePicker.Date` ahora es `DateTime?`, aunque el código ya lo contempla).

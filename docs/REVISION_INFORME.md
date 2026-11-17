@@ -58,13 +58,17 @@ Revisión del 16/11/2026: se leyeron las 32 páginas, incluidas las figuras. Có
 - Las tablas de las págs. 14 a 16 (matriz y traza) y 22 a 24 (casos de prueba) se salen del margen derecho y en el PDF se cortan columnas: "Eficiencia…" y "Resultado obtenido / Estado / Evidencia". Conviene ponerlas en horizontal o reducir columnas.
 - Erratas: "comoras", "CarritoServicio", "Estructur as", "Fuera del Pre-venta", "(Imagen 6 y 7)" → "(Imágenes 6 y 7)"; el objetivo 6 está en pasado ("Implementamos").
 - En el pie del Diag. 01 dice "Ripley Comas"; en el resto del texto, "caja 511" sin sede. Unificar.
-- **Datos personales:** la foto de la boleta (fila 7) y la pantalla de ingreso de datos (fila 2) dejan leer el nombre, el DNI y el correo de una persona real, y la tarjeta parcial. Hay que difuminarlos antes de entregar.
+- **Datos personales:** la foto de la boleta (fila 7) deja leer el nombre, el DNI y el correo de una persona real, la tarjeta parcial y el QR. (Corrección del 17/11: la pantalla de ingreso de datos de la fila 2 tiene los campos vacíos; no muestra datos.)
 
 ## Orden sugerido de corrección
 
-1. Difuminar los datos personales de las fotos (fila 7 y fila 2).
+1. Difuminar los datos personales de la foto de la boleta (fila 7).
 2. Quitar los restos de la billetera móvil: título, Anexo B (tabla de módulos y responsabilidades), enlace del repositorio y filas 2 y 3 de la Tabla 1.5.
 3. Alinear el diseño con el código: A1 a A6 y A12.
 4. Corregir los casos de prueba: A3, A4, A8 a A11. Luego ejecutarlos y completar "Resultado obtenido".
 5. Numerar las imágenes, tablas y figuras y corregir las cifras (B3 a B6).
 6. Arreglar las tablas cortadas y las erratas.
+
+## Estado (17/11/2026)
+
+Aplicado en `docs/informe/EDD_EF_Grupo07_corregido.docx`. Además se encontró que **ninguna foto muestra el carrito de S/ 199.97 con "Usted ahorra S/ 20.00"**: la Imagen 3 real es un carrito de 8 prendas por S/ 510.85 sin ahorro, y el QR es por S/ 510.85 (no S/ 131.18). El Word usa el carrito A como caso de validación y deja una nota amarilla para que el equipo agregue la foto o lo declare construido.
