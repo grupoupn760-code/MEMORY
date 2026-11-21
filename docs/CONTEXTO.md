@@ -10,6 +10,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - `docs/CONTEXTO.md` (este archivo) y `docs/HISTORIAL.md` (una línea fechada por sesión).
 - `docs/REVISION_INFORME.md`: revisión del informe `EDD_EF_Grupo07.pdf` frente al código (16/11/2026).
 - `docs/informe/EDD_EF_Grupo07_corregido.docx`: informe corregido en Word (17/11/2026).
+- `docs/RESULTADOS_PRUEBAS.md`: resultado obtenido y estado de CP-01 a CP-19 según las capturas del equipo (20/11/2026).
 - `RipleyComprasMAUI/RipleyComprasMAUI.slnx` / `.sln`: la solución tiene 2 proyectos (versión .NET 10).
 - `variantes/net9/`: los dos `.csproj` para .NET 9; para cambiar de versión, reemplaza los de la solución por estos. Todo lo demás es idéntico.
 - `RipleyComprasMAUI/RipleyComprasMAUI/Models/`: `Producto`, `ItemCarrito`, `Venta` (contiene su `Boleta`) y `Boleta`.
@@ -46,16 +47,18 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - **.NET 10:** compila y arranca en la PC del usuario. La primera versión de `EstilosNativos` lanzaba una `COMException`; ya está corregida.
 - **Repositorio:** el código y la documentación están subidos; desde el 16/11/2026 la memoria vive en `docs/` (antes `RipleyContext.md` en la raíz).
 - **Sin confirmar:** que la corrección funcione en Windows, que ambas variantes compilen sin advertencias y cómo se ve la nueva interfaz.
-- Casos P-01 a P-19 y `Comprobaciones`: **propuestos**, sin ejecutar ni capturas.
+- **Casos CP-01 a CP-19 (ejecutados por el equipo, capturas en `EDD_EF_Grupo07_1.pdf`):** 9 validados, 4 parciales (CP-01, 09, 12, 17) y 6 pendientes de captura (CP-02, 08, 10, 13, 14, 18). `Comprobaciones` sin captura.
 - **Informe:** corregido en Word (29 págs.) y alineado con el código: título, alcance, bitácora renumerada (Imágenes 1–7), tablas y figuras numeradas, diagramas TO-BE, estados, clases y secuencia rehechos, grafo agregado, CP-01 a CP-19 y Anexos B y D sin restos de la billetera. Foto de la boleta difuminada. Quedan notas amarillas para el equipo.
 
 ## Pendientes (por prioridad)
 1. Compilar y ejecutar con la corrección (Limpiar → Recompilar → F5) en .NET 10 y luego en .NET 9.
 2. P-19: revisar el contraste de `pkTarjeta` en tema claro y oscuro de Windows.
-3. Ejecutar `Comprobaciones` (`dotnet run`) y los casos P-01 a P-18, con capturas fechadas.
+3. Completar las capturas faltantes según `docs/RESULTADOS_PRUEBAS.md` y mover las evidencias cruzadas (CP-02→CP-04, CP-14→CP-15).
 4. Completar las notas amarillas del Word: foto del carrito con ahorro S/ 20.00 (o declararlo caso construido), horas de la bitácora frente al reloj del terminal, capturas de la app, fecha de ejecución de pruebas y enlace del repositorio que se entrega. Actualizar el índice en Word.
 
 ## Problemas abiertos
 - `COMException` en `EstilosNativos.Pintar` (`ComboBoxBackgroundUnfocused`): corregida, falta confirmarla.
-- El carrito A (S/ 199.97, ahorro S/ 20.00) no tiene foto de respaldo en el informe; las horas de la bitácora no coinciden con el reloj del terminal.
+- El carrito A (S/ 199.97, ahorro S/ 20.00) no tiene foto de campo; las horas de la bitácora no coinciden con el reloj del terminal.
+- Las capturas de pruebas usan nombres, DNI y correos reales: difuminar o repetir con datos inventados.
+- En la app del usuario el desplegable de tarjeta sale oscuro (estilo de Windows): los colores de `Platforms/Windows/App.xaml` no se aplicaron. En Venta los artículos muestran “1 xS/ …” (falta un espacio).
 - Ni el código C# ni la interfaz se compilaron fuera de la PC del usuario; puede haber advertencias de .NET 10 (por ejemplo, `DatePicker.Date` ahora es `DateTime?`, aunque el código ya lo contempla).
