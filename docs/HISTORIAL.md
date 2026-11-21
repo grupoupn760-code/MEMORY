@@ -10,3 +10,4 @@
 - 20/11/2026 — Revisión de las capturas de pruebas (EDD_EF_Grupo07_1.pdf): resultados y estados en `docs/RESULTADOS_PRUEBAS.md`; 9 validados, 4 parciales, 6 pendientes.
 - 20/11/2026 — CP-02: nuevas capturas revisadas; sigue pendiente (falta el aviso de código de 8 dígitos y el carrito con los códigos de la entrada).
 - 21/11/2026 — CP-08: capturas revisadas; sigue pendiente (falta el carrito tras Deshacer y el botón deshabilitado).
+- 21/11/2026 — CP-10: captura revisada; sigue pendiente (falta la boleta emitida).
