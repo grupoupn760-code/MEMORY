@@ -12,3 +12,4 @@
 - 21/11/2026 — CP-08: capturas revisadas; sigue pendiente (falta el carrito tras Deshacer y el botón deshabilitado).
 - 21/11/2026 — CP-10: captura revisada; sigue pendiente (falta la boleta emitida).
 - 21/11/2026 — CP-13: captura revisada; sigue pendiente (falta el panel Pago cerrado con los importes).
+- 21/11/2026 — CP-14 validado con nuevas capturas (compra de S/ 139.96 sin precio especial).

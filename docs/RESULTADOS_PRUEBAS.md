@@ -17,14 +17,14 @@ Fuente: capturas del informe `EDD_EF_Grupo07_1.pdf` (37 págs.), revisadas el 20
 | CP-11 | Número 1: “1 boleta encontrada”, Boleta N° 000001 (06/11/2026, Tarjeta Ripley, S/ 179.98). Número 99: “No existe la boleta N° 99”. | Validado | — |
 | CP-12 | La boleta N° 000001 (emitida el 06/11/2026) se consultó el 20/11/2026, después de cerrar y abrir la app; también se conservan la 000003 (07/11) y la 000004 (17/11). | Validado parcialmente | Persistencia comprobada con la captura de CP-11. La entrada dice “2 boletas” y hay al menos 4; falta mostrar el número de la siguiente boleta. |
 | CP-13 | — | Pendiente | 21/11: misma captura (selector abierto). Falta el panel Pago del carrito A con “Otra tarjeta”: total regular y final S/ 199.97, ahorro S/ 0.00, op. gravada S/ 169.47, IGV S/ 30.50. |
-| CP-14 | — | Pendiente | La captura es la boleta 000004 (carrito A); falta el carrito B con Tarjeta Ripley (S/ 149.96, ahorro S/ 0.00). |
+| CP-14 | Compra sin prendas con precio especial (POL MC ESTRE INX COR ×2, HI ML CUERNO AZI COR, SWE ML DESTAR INX CO) con Tarjeta Ripley: total regular y a pagar S/ 139.96, ahorro S/ 0.00, op. gravada S/ 118.61, IGV S/ 21.35; con Otra tarjeta, los mismos importes. | Validado | 21/11: nuevas capturas. Cambiar la entrada a esta compra (no es el carrito B). |
 | CP-15 | Boleta N° 000004 con Tarjeta Ripley: total regular S/ 199.97, ahorro S/ 20.00, op. gravada S/ 152.52, IGV S/ 27.45, total final S/ 179.97, 3 unidades. | Validado | Mover aquí la captura de la boleta 000004 (hoy en CP-14); la captura actual de CP-15 es la de CP-06. |
 | CP-16 | En caja el DNI aparece oculto (primer dígito, “xxxxx” y los dos últimos); la boleta muestra el DNI y el correo registrados. | Validado | Corregir el esperado: la app oculta con “xxxxx” y deja visibles el primer dígito y los dos últimos. Usar datos inventados (por ejemplo 70000021 → 7xxxxx21) o difuminar DNI y correo reales. |
 | CP-17 | Con los campos vacíos, la boleta N° 000003 sale como “Cliente anónimo”, con DNI y correo “no registrado”. | Validado parcialmente | Falta la captura de “DNI inválido” y “Correo inválido”. |
 | CP-18 | — | Pendiente | La captura muestra Caja 512 → Caja 513 (3 ms); falta Caja 511 → Central (26 ms, luego 34 ms y sin ruta) y el tiempo inválido. |
 | CP-19 | Filtro “Venta - Pago”: 12 registros con fecha y hora, acción, turno y resultado (22:43–23:08 del 20/11/2026). | Validado | — |
 
-Resumen: 9 validados, 4 validados parcialmente, 6 pendientes.
+Resumen (21/11): 10 validados, 4 validados parcialmente, 5 pendientes (CP-02, 08, 10, 13 y 18).
 
 ## Observaciones de las capturas
 - **Datos personales:** las capturas muestran nombres, DNI y correos reales, aunque el informe dice que los datos son inventados. Difuminarlos o repetir con datos inventados.
