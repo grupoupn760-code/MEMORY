@@ -1,6 +1,6 @@
 # RipleyComprasMAUI — contexto del proyecto
 
-Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 17/11/2026
+Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 20/11/2026
 
 ## Objetivo
 Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una caja de Ripley en tres subprocesos: **Preventa** (carrito), **Venta** (fila FIFO, tarjeta, pago simulado) y **Postventa** (boleta simulada y consultas). Se usan estructuras de datos manuales y la persistencia es en JSON.
@@ -37,6 +37,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - El DNI se guarda como `string` completo, para poder buscarlo exacto, y se oculta en los mensajes. Los datos de clientes son inventados.
 - `ventas.json` guarda cada `Venta` con su `Boleta`, y la `Boleta` lleva solo `IdVenta`, para no duplicar datos.
 - El stock se valida al agregar y otra vez al confirmar. Si falla un archivo, se compensa restaurando `ventas.json`.
+- Solo se guarda lo confirmado: `ventas.json` y `productos.json` se escriben al pulsar *Confirmar pago* (escritura atómica). Carrito, fila, compra en caja y bitácora viven en memoria y se pierden al cerrar, por diseño.
 - Code-behind sin lógica de negocio; `App.CreateWindow` resuelve `MainPage` por DI (antes fallaba por recursos no cargados).
 - Interfaz: textos sin jerga académica y menú sin números. Los colores de los ComboBox se definen en XAML porque cambiarlos desde código provocaba una `COMException`.
 
