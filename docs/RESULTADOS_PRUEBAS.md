@@ -21,7 +21,7 @@ Fuente: capturas del informe `EDD_EF_Grupo07_1.pdf` (37 págs.), revisadas el 20
 | CP-15 | Boleta N° 000004 con Tarjeta Ripley: total regular S/ 199.97, ahorro S/ 20.00, op. gravada S/ 152.52, IGV S/ 27.45, total final S/ 179.97, 3 unidades. | Validado | Mover aquí la captura de la boleta 000004 (hoy en CP-14); la captura actual de CP-15 es la de CP-06. |
 | CP-16 | En caja el DNI aparece oculto (primer dígito, “xxxxx” y los dos últimos); la boleta muestra el DNI y el correo registrados. | Validado | Corregir el esperado: la app oculta con “xxxxx” y deja visibles el primer dígito y los dos últimos. Usar datos inventados (por ejemplo 70000021 → 7xxxxx21) o difuminar DNI y correo reales. |
 | CP-17 | Con los campos vacíos, la boleta N° 000003 sale como “Cliente anónimo”, con DNI y correo “no registrado”. | Validado parcialmente | Falta la captura de “DNI inválido” y “Correo inválido”. |
-| CP-18 | — | Pendiente | La captura muestra Caja 512 → Caja 513 (3 ms); falta Caja 511 → Central (26 ms, luego 34 ms y sin ruta) y el tiempo inválido. |
+| CP-18 | — | Pendiente | 21/11: misma captura (512 → 513, 3 ms). Pasos: 511 → Central (26 ms); elegir Servidor/Central y Desactivar; 511 → Central (34 ms); elegir Almacén/Central y Desactivar; 511 → Central (“No hay una ruta disponible…”); tiempo “abc” → “Tiempo: no es un número válido.” y “0” → “Tiempo: debe estar entre 0.1 y 10000.”; Restaurar red. |
 | CP-19 | Filtro “Venta - Pago”: 12 registros con fecha y hora, acción, turno y resultado (22:43–23:08 del 20/11/2026). | Validado | — |
 
 Resumen (21/11): 10 validados, 4 validados parcialmente, 5 pendientes (CP-02, 08, 10, 13 y 18).
