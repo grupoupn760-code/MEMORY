@@ -11,7 +11,7 @@ Fuente: capturas del informe `EDD_EF_Grupo07_1.pdf` (37 págs.), revisadas el 20
 | CP-05 | Compra del carrito A en caja con “Tarjeta Ripley” seleccionada; precios aplicados S/ 39.99, S/ 89.99 y S/ 49.99. | Validado | — |
 | CP-06 | Turno 2 (carrito B) con “Otra tarjeta”: total a pagar S/ 149.96, ahorro S/ 0.00. | Validado | — |
 | CP-07 | Total regular S/ 199.97, ahorro S/ 20.00, total a pagar S/ 179.97 (op. gravada S/ 152.52, IGV S/ 27.45). | Validado | — |
-| CP-08 | Falda con 2 unidades antes de deshacer. | Pendiente | El carrito capturado no es el A (tiene JEANS). Falta la falda en 1 después de “Deshacer” y el botón deshabilitado con la pila vacía. |
+| CP-08 | Falda con 2 unidades antes de deshacer. | Pendiente | 21/11: mismas capturas; las de los botones no muestran el carrito y “Deshacer” sigue activo en las tres. Opción: cambiar la entrada a su carrito (FALDA, JEANS, FEPAPAYA) y capturar el carrito completo tras “Deshacer” (falda ×1, total S/ 239.97) y el botón gris con la pila vacía. |
 | CP-09 | 12 compras en la fila (“Clientes en fila: 12”); el botón muestra “Atender siguiente (turno 1)”; la bitácora registra las llegadas 1 a 12 en orden (22:43–23:08 del 20/11/2026). | Validado parcialmente | Falta atender hasta vaciar la fila y mostrar “Atender siguiente” deshabilitado con un cliente en caja. |
 | CP-10 | — | Pendiente | Sin captura. |
 | CP-11 | Número 1: “1 boleta encontrada”, Boleta N° 000001 (06/11/2026, Tarjeta Ripley, S/ 179.98). Número 99: “No existe la boleta N° 99”. | Validado | — |
