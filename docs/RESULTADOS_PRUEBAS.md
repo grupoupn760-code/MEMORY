@@ -5,7 +5,7 @@ Fuente: capturas del informe `EDD_EF_Grupo07_1.pdf` (37 págs.), revisadas el 20
 | ID | Resultado obtenido | Estado | Qué falta / nota |
 |---|---|---|---|
 | CP-01 | 2015373474714: “1 producto encontrado.”, POL MC FEPAPAYA INX, S/ 59.99 y T. Ripley S/ 39.99 (20 disponibles). 9999999999999: “Prenda no encontrada.” | Validado parcialmente | Falta la captura de Comprobaciones (2 comparaciones, altura 3), o quitar esa frase del esperado. |
-| CP-02 | — | Pendiente | La captura muestra el carrito B (JEANS, HI ML, 2 SWE ML). Falta el carrito con FEPAPAYA, ESTRE y FALDA y el mensaje “Código inválido” para “20153734”. |
+| CP-02 | — | Pendiente | 20/11: las nuevas capturas siguen sin cuadrar (carrito B y un código de 13 dígitos con “Prenda no encontrada.”). Opción: reutilizar la captura del carrito A de CP-04 (FEPAPAYA, FALDA, ESTRE; S/ 199.97), poner la entrada en ese orden y capturar “20153734” con el aviso “Código inválido: debe tener exactamente 13 dígitos (0-9); tiene 8 caracteres.” |
 | CP-03 | POL MC FEPAPAYA INX ×1 (S/ 59.99) y FALDA LARG FESTIDO I ×2 (S/ 179.98); total S/ 239.97 (con Tarjeta Ripley S/ 219.97, ahorro S/ 20.00). | Validado | — |
 | CP-04 | Carrito A: total S/ 199.97 (con Tarjeta Ripley S/ 179.97). Carrito B: total S/ 149.96. | Validado | Usar como evidencia también la captura del carrito B que hoy está en CP-02. |
 | CP-05 | Compra del carrito A en caja con “Tarjeta Ripley” seleccionada; precios aplicados S/ 39.99, S/ 89.99 y S/ 49.99. | Validado | — |

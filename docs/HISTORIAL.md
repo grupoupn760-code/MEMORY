@@ -8,3 +8,4 @@
 - 17/11/2026 — Informe corregido en Word (`docs/informe/EDD_EF_Grupo07_corregido.docx`): alineado con el código, figuras rehechas, foto de la boleta difuminada; notas amarillas para el equipo.
 - 17/11/2026 — Consulta sobre persistencia: las ventas pagadas no se pierden; lo no confirmado vive en memoria (sin cambios en el código).
 - 20/11/2026 — Revisión de las capturas de pruebas (EDD_EF_Grupo07_1.pdf): resultados y estados en `docs/RESULTADOS_PRUEBAS.md`; 9 validados, 4 parciales, 6 pendientes.
+- 20/11/2026 — CP-02: nuevas capturas revisadas; sigue pendiente (falta el aviso de código de 8 dígitos y el carrito con los códigos de la entrada).
