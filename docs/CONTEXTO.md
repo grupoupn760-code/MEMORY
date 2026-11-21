@@ -47,7 +47,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - **.NET 10:** compila y arranca en la PC del usuario. La primera versión de `EstilosNativos` lanzaba una `COMException`; ya está corregida.
 - **Repositorio:** el código y la documentación están subidos; desde el 16/11/2026 la memoria vive en `docs/` (antes `RipleyContext.md` en la raíz).
 - **Sin confirmar:** que la corrección funcione en Windows, que ambas variantes compilen sin advertencias y cómo se ve la nueva interfaz.
-- **Casos CP-01 a CP-19 (ejecutados por el equipo, capturas en `EDD_EF_Grupo07_1.pdf`):** 10 validados, 4 parciales (CP-01, 09, 12, 17) y 5 pendientes de captura (CP-02, 08, 10, 13, 18). `Comprobaciones` sin captura.
+- **Casos CP-01 a CP-19 (ejecutados por el equipo, capturas en `EDD_EF_Grupo07_1.pdf`):** 10 validados, 5 parciales (CP-01, 09, 12, 17, 18) y 4 pendientes de captura (CP-02, 08, 10, 13). `Comprobaciones` sin captura.
 - **Informe:** corregido en Word (29 págs.) y alineado con el código: título, alcance, bitácora renumerada (Imágenes 1–7), tablas y figuras numeradas, diagramas TO-BE, estados, clases y secuencia rehechos, grafo agregado, CP-01 a CP-19 y Anexos B y D sin restos de la billetera. Foto de la boleta difuminada. Quedan notas amarillas para el equipo.
 
 ## Pendientes (por prioridad)
