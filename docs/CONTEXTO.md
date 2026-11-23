@@ -1,6 +1,6 @@
 # RipleyComprasMAUI — contexto del proyecto
 
-Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 21/11/2026
+Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 22/11/2026
 
 ## Objetivo
 Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una caja de Ripley en tres subprocesos: **Preventa** (carrito), **Venta** (fila FIFO, tarjeta, pago simulado) y **Postventa** (boleta simulada y consultas). Se usan estructuras de datos manuales y la persistencia es en JSON.
@@ -46,18 +46,17 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - **Funciona (verificado):** la réplica en Python pasa 63/63, ejecutada el 07/11/2026. XAML bien formado, handlers y `x:Name` coinciden, llaves balanceadas.
 - **.NET 10:** compila y arranca en la PC del usuario. La primera versión de `EstilosNativos` lanzaba una `COMException`; ya está corregida.
 - **Repositorio:** el código y la documentación están subidos; desde el 16/11/2026 la memoria vive en `docs/` (antes `RipleyContext.md` en la raíz).
-- **Sin confirmar:** que la corrección funcione en Windows, que ambas variantes compilen sin advertencias y cómo se ve la nueva interfaz.
+- **Confirmado por las capturas (17–21/11):** la app .NET 10 con la nueva interfaz corre en Windows y el selector de tarjeta abre sin `COMException`. **Sin confirmar:** la variante .NET 9 y las advertencias de compilación.
 - **Casos CP-01 a CP-19 (ejecutados por el equipo, capturas en `EDD_EF_Grupo07_1.pdf`):** 10 validados, 5 parciales (CP-01, 09, 12, 17, 18) y 4 pendientes de captura (CP-02, 08, 10, 13). `Comprobaciones` sin captura.
 - **Informe:** corregido en Word (29 págs.) y alineado con el código: título, alcance, bitácora renumerada (Imágenes 1–7), tablas y figuras numeradas, diagramas TO-BE, estados, clases y secuencia rehechos, grafo agregado, CP-01 a CP-19 y Anexos B y D sin restos de la billetera. Foto de la boleta difuminada. Quedan notas amarillas para el equipo.
 
 ## Pendientes (por prioridad)
-1. Compilar y ejecutar con la corrección (Limpiar → Recompilar → F5) en .NET 10 y luego en .NET 9.
-2. P-19: revisar el contraste de `pkTarjeta` en tema claro y oscuro de Windows.
-3. Completar las capturas faltantes según `docs/RESULTADOS_PRUEBAS.md` y mover las evidencias cruzadas (CP-02→CP-04, CP-14→CP-15).
-4. Completar las notas amarillas del Word: foto del carrito con ahorro S/ 20.00 (o declararlo caso construido), horas de la bitácora frente al reloj del terminal, capturas de la app, fecha de ejecución de pruebas y enlace del repositorio que se entrega. Actualizar el índice en Word.
+1. Completar las capturas faltantes según `docs/RESULTADOS_PRUEBAS.md` y mover las evidencias cruzadas (CP-02→CP-04, CP-14→CP-15).
+2. Completar las notas amarillas del Word: foto del carrito con ahorro S/ 20.00 (o declararlo caso construido), horas de la bitácora frente al reloj del terminal, capturas de la app, fecha de ejecución de pruebas y enlace del repositorio que se entrega. Actualizar el índice en Word.
+3. Opcional en código: que el desplegable de tarjeta tome el morado (hoy sale oscuro, legible) y corregir “1 xS/” en Venta.
+4. Probar la variante .NET 9.
 
 ## Problemas abiertos
-- `COMException` en `EstilosNativos.Pintar` (`ComboBoxBackgroundUnfocused`): corregida, falta confirmarla.
 - El carrito A (S/ 199.97, ahorro S/ 20.00) no tiene foto de campo; las horas de la bitácora no coinciden con el reloj del terminal.
 - Las capturas de pruebas usan nombres, DNI y correos reales: difuminar o repetir con datos inventados.
 - En la app del usuario el desplegable de tarjeta sale oscuro (estilo de Windows): los colores de `Platforms/Windows/App.xaml` no se aplicaron. En Venta los artículos muestran “1 xS/ …” (falta un espacio).
