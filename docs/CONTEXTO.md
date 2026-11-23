@@ -11,6 +11,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - `docs/REVISION_INFORME.md`: revisión del informe `EDD_EF_Grupo07.pdf` frente al código (16/11/2026).
 - `docs/informe/EDD_EF_Grupo07_corregido.docx`: informe corregido en Word (17/11/2026).
 - `docs/informe/CAPITULO_VII_IA.md`: sección “Evaluación del impacto y uso responsable de herramientas digitales e IA” (Tablas 18 y 19), para añadir al informe (22/11/2026).
+- `docs/informe/DECLARACION_IA.md`: declaración formal de uso de IA para firmar (22/11/2026).
 - `docs/RESULTADOS_PRUEBAS.md`: resultado obtenido y estado de CP-01 a CP-19 según las capturas del equipo (20/11/2026).
 - `RipleyComprasMAUI/RipleyComprasMAUI.slnx` / `.sln`: la solución tiene 2 proyectos (versión .NET 10).
 - `variantes/net9/`: los dos `.csproj` para .NET 9; para cambiar de versión, reemplaza los de la solución por estos. Todo lo demás es idéntico.
