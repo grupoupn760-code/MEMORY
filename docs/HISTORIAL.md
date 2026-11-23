@@ -16,3 +16,4 @@
 - 21/11/2026 — CP-18: captura revisada; sigue pendiente (falta el caso 511 → Central con enlaces desactivados).
 - 21/11/2026 — CP-18: capturas de 26 ms, 34 ms y sin ruta; falta solo el tiempo inválido.
 - 22/11/2026 — Recarga de contexto; CONTEXTO actualizado: la COMException queda confirmada como resuelta (la app corre con la interfaz nueva).
+- 22/11/2026 — Redactado el Capítulo VII sobre uso responsable de IA (`docs/informe/CAPITULO_VII_IA.md`).
