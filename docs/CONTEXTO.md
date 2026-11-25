@@ -1,6 +1,6 @@
 # RipleyComprasMAUI — contexto del proyecto
 
-Repositorio de memoria: https://github.com/grupoupn760-code/MEMORY · Repositorio de entrega (Anexo F del informe): https://github.com/grupoupn760-code/RIPLEY_ · Actualizado: 25/11/2026
+Repositorio de memoria: https://github.com/grupoupn760-code/MEMORY · Repositorio de entrega (Anexo F del informe): https://github.com/grupoupn760-code/RIPLEY_ (versión .NET 9, conectado con permiso de escritura desde el 25/11/2026) · Actualizado: 25/11/2026
 
 ## Objetivo
 Prototipo académico (Estructuras de Datos, UPN 2026-2, Grupo 07) que simula la caja 511 de Ripley en tres subprocesos: **Preventa** (catálogo y carrito), **Venta** (fila FIFO, tarjeta, pago simulado) y **Postventa** (boleta simulada y consultas). Estructuras propias y persistencia en JSON.
