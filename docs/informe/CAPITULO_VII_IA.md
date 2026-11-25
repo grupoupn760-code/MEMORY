@@ -10,7 +10,7 @@ Para el análisis, la programación y la documentación del prototipo usamos her
 
 | Herramienta | Para qué la usamos | Control que aplicamos |
 |---|---|---|
-| Claude (asistente de IA de Anthropic) | Proponer la estructura del código (modelos, estructuras, servicios y persistencia), rediseñar la interfaz, explicar y corregir errores de compilación y ejecución, revisar la coherencia del informe con el código y redactar el resultado obtenido de los casos de prueba. | Cada propuesta se compiló y ejecutó en Visual Studio. Los resultados se contrastaron con las capturas de la aplicación y los cálculos se comprobaron a mano. |
+| Claude (asistente de IA de Anthropic) | Proponer la estructura del código (modelos, estructuras, servicios y persistencia), rediseñar la interfaz, explicar y corregir errores de compilación y ejecución, revisar la coherencia del informe con el código, redactar el resultado obtenido de los casos de prueba y armar la presentación de la sustentación. | Cada propuesta se compiló y ejecutó en Visual Studio. Los resultados se contrastaron con las capturas de la aplicación y los cálculos se comprobaron a mano. |
 | Visual Studio 2026 y .NET MAUI | Compilar, depurar y ejecutar el prototipo en Windows. | Ejecución real de los casos de prueba CP-01 a CP-19. |
 | GitHub (repositorio MEMORY) | Guardar el código, la documentación y la memoria del proyecto (`CLAUDE.md`, `docs/CONTEXTO.md`, `docs/HISTORIAL.md`). | Historial de cambios con fecha; cada sesión de trabajo deja registrado qué se cambió y por qué. |
 | Réplica de la lógica en Python | Comprobar los cálculos y las reglas del prototipo sin depender de la interfaz. | 63 de 63 comprobaciones superadas (07/11/2026). |
@@ -27,6 +27,7 @@ Para el análisis, la programación y la documentación del prototipo usamos her
   El equipo revisó el código, lo compiló y lo probó.
 - **Interfaz.** Le describimos a la IA cómo debía sentirse la aplicación ("como una caja de tienda, sin tener que explicar qué botón tocar"). Con eso propuso el orden de las pantallas, los textos y los colores, incluido el cálculo del contraste de los colores según WCAG 2.1.
 - **Continuidad del trabajo.** Para no depender de la memoria de una sola conversación, guardamos el contexto del proyecto en archivos del repositorio y se los dimos a la IA al iniciar cada sesión. Así se mantienen las decisiones tomadas y el estado de las pruebas.
+- **Pruebas y sustentación.** La IA revisó cada captura contra la entrada y el resultado esperado del caso. Así detectamos capturas cruzadas o incompletas antes de marcar un caso como "Validado". También ayudó a resumir el trabajo en la presentación: diagramas, pseudocódigo PC1 a PC6 y casos representativos. El equipo revisó y ajustó cada diapositiva.
 - **Reflexión.** La IA ayudó a contrastar lo observado en tienda con lo que hace el prototipo y a identificar los riesgos de privacidad que se describen en 7.4.
 
 ### 7.3. Verificación y control de errores
