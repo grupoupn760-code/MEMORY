@@ -13,7 +13,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - `docs/informe/CAPITULO_VII_IA.md`: sección “Evaluación del impacto y uso responsable de herramientas digitales e IA” (Tablas 18 y 19), para añadir al informe (22/11/2026).
 - `docs/informe/DECLARACION_IA.md`: declaración formal de uso de IA para firmar (22/11/2026).
 - `docs/presentacion/Sustentacion_RipleyComprasMAUI.pptx`: 15 diapositivas para la sustentación oral, con notas del orador por integrante (24/11/2026). El gráfico de resultados usa el estado al 21/11 (10/5/4).
-- `docs/presentacion/Sustentacion_RipleyComprasMAUI_v2.pptx`: versión de 12 diapositivas según la estructura del usuario (portada, problemática, 3 diagramas de negocio, IPO, estructuras, AS-IS/TO-BE, pseudocódigo PC1–PC6, arquitectura, casos y conclusiones). El pseudocódigo se redactó desde el código; verificar que coincide con el del informe.
+- `docs/presentacion/Sustentacion_RipleyComprasMAUI_v2.pptx`: versión de 13 diapositivas según la estructura del usuario (portada, problemática, bitácora de campo con las Imágenes 1–7, 3 diagramas de negocio, IPO, estructuras, AS-IS/TO-BE, pseudocódigo PC1–PC6, arquitectura, casos y conclusiones). El pseudocódigo se redactó desde el código; verificar que coincide con el del informe.
 - `docs/RESULTADOS_PRUEBAS.md`: resultado obtenido y estado de CP-01 a CP-19 según las capturas del equipo (20/11/2026).
 - `RipleyComprasMAUI/RipleyComprasMAUI.slnx` / `.sln`: la solución tiene 2 proyectos (versión .NET 10).
 - `variantes/net9/`: los dos `.csproj` para .NET 9; para cambiar de versión, reemplaza los de la solución por estos. Todo lo demás es idéntico.

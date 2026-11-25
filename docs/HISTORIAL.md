@@ -20,3 +20,4 @@
 - 22/11/2026 — Redactada la declaración de uso de IA (`docs/informe/DECLARACION_IA.md`).
 - 24/11/2026 — Presentación de sustentación (`docs/presentacion/Sustentacion_RipleyComprasMAUI.pptx`): problema, estructuras, lógica, resultados, IA y conclusiones.
 - 24/11/2026 — Presentación v2 de 12 diapositivas con pseudocódigo y casos representativos.
+- 24/11/2026 — Presentación v2: agregada la diapositiva de la bitácora de observación de campo (13 diapositivas).
