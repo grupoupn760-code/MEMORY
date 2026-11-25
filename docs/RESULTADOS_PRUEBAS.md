@@ -30,3 +30,7 @@ Resumen (21/11): 10 validados, 5 validados parcialmente, 4 pendientes (CP-02, 08
 - **Datos personales:** las capturas muestran nombres, DNI y correos reales, aunque el informe dice que los datos son inventados. Difuminarlos o repetir con datos inventados.
 - **Selector de tarjeta (P-19):** en la captura de CP-13 el desplegable sale oscuro con la marca rosada de Windows, no con el morado de `Platforms/Windows/App.xaml`. Se lee, pero el estilo no se aplicó.
 - **Detalle visual:** en Venta los artículos se ven como “1 xS/ 39.99” (falta un espacio después de la “x”).
+
+## Informe final (25/11/2026)
+En `EDD_EF_Grupo07.pdf` final el equipo marca los 19 casos como **Validado**, con entradas y esperados ajustados a las capturas (CP-02 con el aviso de 8 dígitos; CP-08 con su carrito FALDA/JEANS/FEPAPAYA; CP-10 con la boleta 000005 de S/ 239.97; CP-12 con 5 boletas; CP-13 con el panel de Otra tarjeta; CP-14 con la compra de S/ 139.96; CP-18 con 26 ms, 34 ms, sin ruta y tiempo “abc”).
+Observaciones que quedaron: CP-09 (lo obtenido muestra la fila de 12, no la atención hasta vaciarla) y CP-16 (esperado “6******0”; la app muestra el primer dígito, “xxxxx” y los dos últimos; el DNI usado no parece inventado).
