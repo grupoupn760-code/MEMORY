@@ -36,6 +36,7 @@ C#, .NET MAUI solo Windows (unpackaged), Visual Studio 2026, .NET 10 (variante .
 3. Opcional en código: desplegable de tarjeta en morado (hoy oscuro, legible) y “1 xS/” en Venta.
 
 ## Problemas abiertos / observaciones del informe final
+- Concordancia informe final ↔ código RIPLEY_ (25/11): estructuras, complejidades, PC3/PC4/PC6, cálculos, validaciones, persistencia, Tabla 13 y casos coinciden. No coinciden: plataforma (.NET 10 en el informe, RIPLEY_ es .NET 9); texto de 4.3 (dice que el cajero registra artículos); 5.2 con nombres traducidos (Ticket, Libro de registro, Red de registros, Enviar a registro); CP-16 “6******0”; Tabla 8 “No se encontró la boleta”; PC5 “No existe una ruta…”; PC1/PC2 “devolver nulo” (el código lanza excepción); ejemplo de código 2005320106904 que no está en productos.json.
 - Bitácora y Tabla 1.4 mezclan datos: la fila 6 dice voucher de S/ 510.85 (la foto original era S/ 1080.13); la fila 7 dice 22/08 19:40 y la Tabla 1.4 dice boleta del 16/11/2026 con 8 prendas y S/ 510.85; “Operaciones con QR: 3 (S/ 131.18…)” sigue sin respaldo en la Imagen 6.
 - 1.5: las filas 2 y 3 repiten el mismo texto observado; 4.2 repite el párrafo sobre acoplamiento; 4.3 dice que el cajero registra los artículos (en el código se registran en Preventa).
 - CP-16 usa un DNI que parece real y dice “6******0” (la app muestra 6xxxxx00). CP-09: lo obtenido muestra la fila de 12, no la atención completa.
