@@ -40,3 +40,4 @@ C#, .NET MAUI solo Windows (unpackaged), Visual Studio 2026, .NET 10 (variante .
 - 1.5: las filas 2 y 3 repiten el mismo texto observado; 4.2 repite el párrafo sobre acoplamiento; 4.3 dice que el cajero registra los artículos (en el código se registran en Preventa).
 - CP-16 usa un DNI que parece real y dice “6******0” (la app muestra 6xxxxx00). CP-09: lo obtenido muestra la fila de 12, no la atención completa.
 - El carrito A (ahorro S/ 20.00) es un caso construido, sin foto de campo.
+- RIPLEY_ (25/11): Structures/Services/Models perdieron todos los comentarios respecto de MEMORY, y `InputHelper.NormalizarParaBusqueda` perdió un `continue;` (duplica espacios). La boleta imprime DNI y correo completos; el `catch` de `EstilosNativos` quedó vacío. Lista de correcciones C-01 a C-05 del equipo: todas confirmadas.

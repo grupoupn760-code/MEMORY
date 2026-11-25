@@ -25,3 +25,4 @@
 - 25/11/2026 — Capítulo VII y declaración de IA actualizados con el uso en pruebas y en la presentación.
 - 25/11/2026 — Informe final (43 págs.) incorporado a la memoria: CONTEXTO reescrito, 19 casos Validado, observaciones pendientes del informe.
 - 25/11/2026 — Conectado el repositorio de entrega RIPLEY_ con permiso de escritura (rama main, código .NET 9).
+- 25/11/2026 — Revisadas las correcciones C-01 a C-05 sobre RIPLEY_: todas existen; C-01, C-04 y C-05 vienen de comentarios y una línea borrados respecto de la versión de MEMORY.
