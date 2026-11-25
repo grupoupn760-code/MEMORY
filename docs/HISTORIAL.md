@@ -29,3 +29,4 @@
 - 25/11/2026 — RIPLEY_: C-01 (comentarios breves en Structures/Services/Models, sin espacios finales) y C-05 (comentario en el catch) hechos en el commit local 5d86f55, sin subir; C-04 pendiente de aprobación.
 - 25/11/2026 — RIPLEY_: C-04 (continue en NormalizarParaBusqueda) aprobado y hecho; C-01, C-04 y C-05 subidos a main (f35fb49).
 - 25/11/2026 — Revisada la concordancia del informe final con el código de RIPLEY_: 9 diferencias anotadas en CONTEXTO.
+- 25/11/2026 — Revisada la versión _1 del informe: la mayoría de diferencias con el código corregidas; quedan 4 menores.
