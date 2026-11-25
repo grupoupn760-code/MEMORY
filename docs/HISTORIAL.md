@@ -26,3 +26,4 @@
 - 25/11/2026 — Informe final (43 págs.) incorporado a la memoria: CONTEXTO reescrito, 19 casos Validado, observaciones pendientes del informe.
 - 25/11/2026 — Conectado el repositorio de entrega RIPLEY_ con permiso de escritura (rama main, código .NET 9).
 - 25/11/2026 — Revisadas las correcciones C-01 a C-05 sobre RIPLEY_: todas existen; C-01, C-04 y C-05 vienen de comentarios y una línea borrados respecto de la versión de MEMORY.
+- 25/11/2026 — RIPLEY_: C-01 (comentarios breves en Structures/Services/Models, sin espacios finales) y C-05 (comentario en el catch) hechos en el commit local 5d86f55, sin subir; C-04 pendiente de aprobación.
