@@ -1,6 +1,6 @@
 # RipleyComprasMAUI — contexto del proyecto
 
-Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 22/11/2026
+Repositorio: https://github.com/grupoupn760-code/MEMORY · Actualizado: 24/11/2026
 
 ## Objetivo
 Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una caja de Ripley en tres subprocesos: **Preventa** (carrito), **Venta** (fila FIFO, tarjeta, pago simulado) y **Postventa** (boleta simulada y consultas). Se usan estructuras de datos manuales y la persistencia es en JSON.
@@ -12,6 +12,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 - `docs/informe/EDD_EF_Grupo07_corregido.docx`: informe corregido en Word (17/11/2026).
 - `docs/informe/CAPITULO_VII_IA.md`: sección “Evaluación del impacto y uso responsable de herramientas digitales e IA” (Tablas 18 y 19), para añadir al informe (22/11/2026).
 - `docs/informe/DECLARACION_IA.md`: declaración formal de uso de IA para firmar (22/11/2026).
+- `docs/presentacion/Sustentacion_RipleyComprasMAUI.pptx`: 15 diapositivas para la sustentación oral, con notas del orador por integrante (24/11/2026). El gráfico de resultados usa el estado al 21/11 (10/5/4).
 - `docs/RESULTADOS_PRUEBAS.md`: resultado obtenido y estado de CP-01 a CP-19 según las capturas del equipo (20/11/2026).
 - `RipleyComprasMAUI/RipleyComprasMAUI.slnx` / `.sln`: la solución tiene 2 proyectos (versión .NET 10).
 - `variantes/net9/`: los dos `.csproj` para .NET 9; para cambiar de versión, reemplaza los de la solución por estos. Todo lo demás es idéntico.
@@ -56,6 +57,7 @@ Prototipo académico (Estructuras de Datos CIIN1190P, UPN 2026-2) que simula una
 1. Completar las capturas faltantes según `docs/RESULTADOS_PRUEBAS.md` y mover las evidencias cruzadas (CP-02→CP-04, CP-14→CP-15).
 2. Añadir el Capítulo VII (IA) al Word y completar su nota sobre las capturas con datos reales.
 2b. Completar las notas amarillas del Word: foto del carrito con ahorro S/ 20.00 (o declararlo caso construido), horas de la bitácora frente al reloj del terminal, capturas de la app, fecha de ejecución de pruebas y enlace del repositorio que se entrega. Actualizar el índice en Word.
+2c. Antes de sustentar: actualizar el gráfico de la diapositiva 12 si cambian los casos, confirmar quién expone cada diapositiva y subir el PPT al aula virtual (no hay conector).
 3. Opcional en código: que el desplegable de tarjeta tome el morado (hoy sale oscuro, legible) y corregir “1 xS/” en Venta.
 4. Probar la variante .NET 9.
 
