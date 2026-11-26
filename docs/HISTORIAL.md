@@ -43,3 +43,4 @@
 25/11/2026 — Propuesta de mencionar Comprobaciones en 5.1 y Cap. VI (pendiente ejecutar y capturar).
 25/11/2026 — Fila “Verificación (Comprobaciones)” propuesta para la Tabla 13; el 5.1 cita el repositorio como Anexo E y es Anexo F.
 25/11/2026 — Propuesto CP-20 “Comprobaciones automáticas” en lugar de ampliar CP-19.
+25/11/2026 — Comprobaciones ejecutadas por el equipo: 100 correctas, 0 con falla (23:15:30). CP-20 listo para el informe.

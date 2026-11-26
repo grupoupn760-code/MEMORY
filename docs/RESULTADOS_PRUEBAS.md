@@ -23,6 +23,7 @@ Fuente: capturas del informe `EDD_EF_Grupo07_1.pdf` (37 págs.), revisadas el 20
 | CP-17 | Con los campos vacíos, la boleta N° 000003 sale como “Cliente anónimo”, con DNI y correo “no registrado”. | Validado parcialmente | Falta la captura de “DNI inválido” y “Correo inválido”. |
 | CP-18 | Caja 511 → Central: ruta por Caja 512, Caja 513 y Servidor de tienda, 26 ms. Con Servidor–Central CAÍDO: ruta por el Almacén, 34 ms. Con Almacén–Central también CAÍDO: “No hay una ruta disponible entre Caja 511 y Central (simulada).” | Validado parcialmente | 21/11: 3 capturas nuevas. Falta el tiempo inválido (“abc” → “Tiempo: no es un número válido.”); o capturarlo, o quitar esa frase del esperado y marcar Validado. |
 | CP-19 | Filtro “Venta - Pago”: 12 registros con fecha y hora, acción, turno y resultado (22:43–23:08 del 20/11/2026). | Validado | — |
+| CP-20 | Comprobaciones (consola): “Resultado: 100 correctas, 0 con falla. Ejecutado el 25/11/2026 23:15:30.” | Validado | Capturas del inicio y del final de la consola. Propuesto como caso nuevo; falta que el equipo lo agregue a la Tabla 14. |
 
 Resumen (21/11): 10 validados, 5 validados parcialmente, 4 pendientes (CP-02, 08, 10 y 13).
 

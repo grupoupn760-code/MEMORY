@@ -31,7 +31,7 @@ C#, .NET MAUI solo Windows (unpackaged), Visual Studio 2026, .NET 10 (variante .
 - **Presentación:** v2 lista; el pseudocódigo de las diapositivas se redactó desde el código y difiere en forma del PC1–PC6 del informe.
 
 ## Pendientes (por prioridad)
-1. Informe: el proyecto de consola Comprobaciones no se menciona. Se propuso una fila para la Tabla 13 y un CP-20 propio en la Tabla 14 (no mezclarlo con CP-19, que prueba la bitácora); el equipo debe ejecutarlo (tras C-04), capturar la línea “Resultado: N correctas, 0 con falla” y usar ese N.
+1. Informe: Comprobaciones ya se ejecutó (25/11/2026 23:15:30): 100 correctas, 0 con falla. Falta que el equipo agregue la fila de la Tabla 13, el CP-20 en la Tabla 14 y cambie “CP-01 a CP-19” por “CP-01 a CP-20” (Tabla 15 y Anexo E).
 2. Sustentación: subir el PPT al aula virtual (no hay conector), confirmar expositores y, si se quiere, copiar el PC1–PC6 del informe a las diapositivas 11–12 de la v2.
 3. Opcional en el informe (ver observaciones abajo).
 4. Opcional en código: desplegable de tarjeta en morado (hoy oscuro, legible) y “1 xS/” en Venta.
