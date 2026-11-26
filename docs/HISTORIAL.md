@@ -40,3 +40,4 @@
 25/11/2026 — Capítulo II rehecho en términos del negocio (Word con 2.1, Figura 1, Tablas 6–8 y Figuras 3–4 corregidas).
 25/11/2026 — Tabla 1.4 corregida con fila de Preventa y subprocesos alineados a las Figuras 2–4.
 25/11/2026 — Figura 2 (Preventa) entregada: original extraída del PDF y versión redibujada en el estilo de las Figuras 3 y 4.
+25/11/2026 — Propuesta de mencionar Comprobaciones en 5.1 y Cap. VI (pendiente ejecutar y capturar).

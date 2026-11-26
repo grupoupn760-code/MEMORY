@@ -31,9 +31,10 @@ C#, .NET MAUI solo Windows (unpackaged), Visual Studio 2026, .NET 10 (variante .
 - **Presentación:** v2 lista; el pseudocódigo de las diapositivas se redactó desde el código y difiere en forma del PC1–PC6 del informe.
 
 ## Pendientes (por prioridad)
-1. Sustentación: subir el PPT al aula virtual (no hay conector), confirmar expositores y, si se quiere, copiar el PC1–PC6 del informe a las diapositivas 11–12 de la v2.
-2. Opcional en el informe (ver observaciones abajo).
-3. Opcional en código: desplegable de tarjeta en morado (hoy oscuro, legible) y “1 xS/” en Venta.
+1. Informe: el proyecto de consola Comprobaciones no se menciona. Se propuso un párrafo para 5.1 y otro para el Cap. VI; el equipo debe ejecutarlo (tras C-04), capturar la línea “Resultado: N correctas, 0 con falla” y usar ese N.
+2. Sustentación: subir el PPT al aula virtual (no hay conector), confirmar expositores y, si se quiere, copiar el PC1–PC6 del informe a las diapositivas 11–12 de la v2.
+3. Opcional en el informe (ver observaciones abajo).
+4. Opcional en código: desplegable de tarjeta en morado (hoy oscuro, legible) y “1 xS/” en Venta.
 
 ## Problemas abiertos / observaciones del informe final
 - Concordancia informe ↔ código RIPLEY_ (versión _2 del 25/11, 42 págs.): **alineado**. Corregidos plataforma (.NET 9 STS), PC1, PC2, PC5, 4.3, 5.2, Tablas 1.4, 8 y 9, CP-16 y la bitácora fila 6 (REF 3135 a 3137). Solo queda, opcional, que toda la bitácora y la Figura 5 usan 22/08/2026 mientras la Tabla 1.4 y las fotos son del 16/11/2026. CP-15 muestra DNI y correo de otra persona (decisión del equipo).
