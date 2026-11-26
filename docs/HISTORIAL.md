@@ -30,3 +30,4 @@
 - 25/11/2026 — RIPLEY_: C-04 (continue en NormalizarParaBusqueda) aprobado y hecho; C-01, C-04 y C-05 subidos a main (f35fb49).
 - 25/11/2026 — Revisada la concordancia del informe final con el código de RIPLEY_: 9 diferencias anotadas en CONTEXTO.
 - 25/11/2026 — Revisada la versión _1 del informe: la mayoría de diferencias con el código corregidas; quedan 4 menores.
+- 25/11/2026 — Informe 18:59: C-02 y C-03 justificados en el texto; quedan 4 detalles menores (LTS, PC1, PC2, CP-16).
