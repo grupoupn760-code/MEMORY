@@ -38,3 +38,4 @@
 25/11/2026 — Memoria depurada: observaciones ya resueltas del informe quitadas de CONTEXTO; estado final agregado a REVISION_INFORME.
 25/11/2026 — Figura 1 del Cap. II revisada: coherente con el código y las Tablas 6–8.
 25/11/2026 — Capítulo II rehecho en términos del negocio (Word con 2.1, Figura 1, Tablas 6–8 y Figuras 3–4 corregidas).
+25/11/2026 — Tabla 1.4 corregida con fila de Preventa y subprocesos alineados a las Figuras 2–4.
