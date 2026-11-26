@@ -31,7 +31,7 @@ C#, .NET MAUI solo Windows (unpackaged), Visual Studio 2026, .NET 10 (variante .
 - **Presentación:** v2 lista; el pseudocódigo de las diapositivas se redactó desde el código y difiere en forma del PC1–PC6 del informe.
 
 ## Pendientes (por prioridad)
-1. Informe: el proyecto de consola Comprobaciones no se menciona. Se propuso un párrafo para 5.1 y otro para el Cap. VI; el equipo debe ejecutarlo (tras C-04), capturar la línea “Resultado: N correctas, 0 con falla” y usar ese N.
+1. Informe: el proyecto de consola Comprobaciones no se menciona. Se propuso una fila para la Tabla 13 (o un párrafo en 5.1) y otro párrafo para el Cap. VI; el equipo debe ejecutarlo (tras C-04), capturar la línea “Resultado: N correctas, 0 con falla” y usar ese N.
 2. Sustentación: subir el PPT al aula virtual (no hay conector), confirmar expositores y, si se quiere, copiar el PC1–PC6 del informe a las diapositivas 11–12 de la v2.
 3. Opcional en el informe (ver observaciones abajo).
 4. Opcional en código: desplegable de tarjeta en morado (hoy oscuro, legible) y “1 xS/” en Venta.
