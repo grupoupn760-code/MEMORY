@@ -42,3 +42,4 @@
 25/11/2026 — Figura 2 (Preventa) entregada: original extraída del PDF y versión redibujada en el estilo de las Figuras 3 y 4.
 25/11/2026 — Propuesta de mencionar Comprobaciones en 5.1 y Cap. VI (pendiente ejecutar y capturar).
 25/11/2026 — Fila “Verificación (Comprobaciones)” propuesta para la Tabla 13; el 5.1 cita el repositorio como Anexo E y es Anexo F.
+25/11/2026 — Propuesto CP-20 “Comprobaciones automáticas” en lugar de ampliar CP-19.
