@@ -1,0 +1,18 @@
+from kit import *
+d=D(700,765); cx=250; W=290; R=540; RW=250
+d.t(20,24,"Postventa: cada pago confirmado deja una referencia y una boleta",14,True,anchor="start")
+d.box(cx,40,240,44,"Pago confirmado","Fin de la venta",term=True)
+d.box(cx,104,W,44,"Registra la operación con su REF","Terminal - REF 3135 a 3137 (Imagen 6)"); d.fl([(cx,84),(cx,103)])
+d.box(cx,168,W,44,"Imprime el voucher Niubiz","Terminal - S/ 510.85, débito (Imagen 6)"); d.fl([(cx,148),(cx,167)])
+d.box(cx,232,W,44,"Emite la boleta con IGV 18 %","Caja - 8 prendas, S/ 510.85 (Imagen 7)"); d.fl([(cx,212),(cx,231)])
+d.box(cx,296,W,44,"Entrega la boleta al cliente","Cajero - boleta impresa (Imagen 7)"); d.fl([(cx,276),(cx,295)])
+d.rombo(cx,394,150,56,["¿Se consulta","la operación?"]); d.fl([(cx,340),(cx,365)])
+d.box(cx,452,W,44,"Busca la operación por REF","Cajero - lista del terminal (Imagen 6)"); d.fl([(cx,422),(cx,451)]); d.t(cx+14,442,"Sí",11.5,anchor="start")
+d.rombo(cx,550,120,52,["¿Existe?"]); d.fl([(cx,496),(cx,523)])
+d.box(R,528,RW,44,"Muestra monto, medio y hora","Imagen 6: REF 3137, S/ 510.85, 21:03")
+d.fl([(cx+60,550),(R-RW/2,550)],"Sí",cx+80,543)
+d.box(cx,610,W,44,"Informa que no se encontró","Cajero"); d.fl([(cx,576),(cx,609)]); d.t(cx+14,598,"No",11.5,anchor="start")
+d.box(cx,700,240,44,"Termina la atención","Fin de la postventa",term=True); d.fl([(cx,654),(cx,699)])
+d.fl([(cx+75,394),(670,394),(670,722),(cx+120,722)],"No",cx+95,387)
+d.fl([(R,572),(R,712),(cx+120,712)])
+d.png("f4_postventa.png")
