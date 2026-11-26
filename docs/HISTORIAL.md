@@ -31,3 +31,4 @@
 - 25/11/2026 — Revisada la concordancia del informe final con el código de RIPLEY_: 9 diferencias anotadas en CONTEXTO.
 - 25/11/2026 — Revisada la versión _1 del informe: la mayoría de diferencias con el código corregidas; quedan 4 menores.
 - 25/11/2026 — Informe 18:59: C-02 y C-03 justificados en el texto; quedan 4 detalles menores (LTS, PC1, PC2, CP-16).
+- 25/11/2026 — Revisada la nueva Imagen 6 (16/11/2026, REF 3135–3137): no respalda S/ 131.18 ni “3 operaciones con QR”.
