@@ -36,7 +36,7 @@ C#, .NET MAUI solo Windows (unpackaged), Visual Studio 2026, .NET 10 (variante .
 3. Opcional en código: desplegable de tarjeta en morado (hoy oscuro, legible) y “1 xS/” en Venta.
 
 ## Problemas abiertos / observaciones del informe final
-- Concordancia informe ↔ código RIPLEY_ (versión del 25/11 18:59, 42 págs.): corregidos 4.3, 5.2, Tabla 8, PC5, plataforma .NET 9; C-02 justificado en 5.1 y C-03 justificado bajo la Tabla 14 (datos simulados). Quedan: “.NET 9 (LTS)” (es STS), PC1 “devolver: error”, PC2 Deshacer usa `a` antes de desapilar, CP-16 “6******0” (app: 6xxxxx00). Opcionales: ejemplo 2005320106904, Python, 131.18.
+- Concordancia informe ↔ código RIPLEY_ (versión del 25/11 19:17, 43 págs.): corregidos 4.3, 5.2, Tabla 8, PC1, PC5, Tabla 1.4 (REF 3135–3137), C-02 y C-03 justificados; CP-16 con nueva captura de caja (DNI 8xxxxx56). Quedan: “.NET 9 (LTS)”; PC2 con la línea AgregarLinea duplicada; CP-16 esperado “6xxxxx00” (con su DNI debe ser 8xxxxx56); bitácora fila 6 y Tabla 9 con REF 2101–2103; CP-15 muestra DNI y correo de otra persona pese a la nota de datos simulados.
 - Bitácora y Tabla 1.4 mezclan datos: la fila 6 dice voucher de S/ 510.85 (la foto original era S/ 1080.13); la fila 7 dice 22/08 19:40 y la Tabla 1.4 dice boleta del 16/11/2026 con 8 prendas y S/ 510.85; “Operaciones con QR: 3 (S/ 131.18…)” sigue sin respaldo en la Imagen 6.
 - 1.5: las filas 2 y 3 repiten el mismo texto observado; 4.2 repite el párrafo sobre acoplamiento; 4.3 dice que el cajero registra los artículos (en el código se registran en Preventa).
 - CP-16 usa un DNI que parece real y dice “6******0” (la app muestra 6xxxxx00). CP-09: lo obtenido muestra la fila de 12, no la atención completa.
