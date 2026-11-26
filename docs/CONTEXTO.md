@@ -36,7 +36,7 @@ C#, .NET MAUI solo Windows (unpackaged), Visual Studio 2026, .NET 10 (variante .
 3. Opcional en código: desplegable de tarjeta en morado (hoy oscuro, legible) y “1 xS/” en Venta.
 
 ## Problemas abiertos / observaciones del informe final
-- Concordancia informe ↔ código RIPLEY_ (versión _1 del 25/11 19:28, 42 págs.): alineado. Corregidos plataforma (.NET 9 STS), PC1, PC2, PC5, 4.3, 5.2, Tablas 1.4, 8 y 9, CP-16 (8xxxxx56, justificación de C-03 en el esperado; se quitó la nota de “datos simulados”). Queda solo la bitácora fila 6 (“REF 2101 a 2103” y fecha 22/08 frente a la foto del 16/11/2026). CP-15 muestra DNI y correo de otra persona (decisión del equipo).
+- Concordancia informe ↔ código RIPLEY_ (versión _2 del 25/11, 42 págs.): **alineado**. Corregidos plataforma (.NET 9 STS), PC1, PC2, PC5, 4.3, 5.2, Tablas 1.4, 8 y 9, CP-16 y la bitácora fila 6 (REF 3135 a 3137). Solo queda, opcional, que toda la bitácora y la Figura 5 usan 22/08/2026 mientras la Tabla 1.4 y las fotos son del 16/11/2026. CP-15 muestra DNI y correo de otra persona (decisión del equipo).
 - Bitácora y Tabla 1.4 mezclan datos: la fila 6 dice voucher de S/ 510.85 (la foto original era S/ 1080.13); la fila 7 dice 22/08 19:40 y la Tabla 1.4 dice boleta del 16/11/2026 con 8 prendas y S/ 510.85; “Operaciones con QR: 3 (S/ 131.18…)” sigue sin respaldo en la Imagen 6.
 - 1.5: las filas 2 y 3 repiten el mismo texto observado; 4.2 repite el párrafo sobre acoplamiento; 4.3 dice que el cajero registra los artículos (en el código se registran en Preventa).
 - CP-16 usa un DNI que parece real y dice “6******0” (la app muestra 6xxxxx00). CP-09: lo obtenido muestra la fila de 12, no la atención completa.

@@ -34,3 +34,4 @@
 - 25/11/2026 — Revisada la nueva Imagen 6 (16/11/2026, REF 3135–3137): no respalda S/ 131.18 ni “3 operaciones con QR”.
 - 25/11/2026 — Informe 19:17 revisado: quedan .NET 9 (LTS), PC2 duplicado, CP-16 8xxxxx56, REF 2101 en bitácora/Tabla 9 y datos de CP-15.
 - 25/11/2026 — Informe _1 (19:28) revisado: alineado con el código salvo la bitácora fila 6.
+25/11/2026 — Informe _2 revisado: bitácora fila 6 corregida (REF 3135 a 3137); informe alineado con el código. Opcional: fechas 22/08 vs 16/11.
