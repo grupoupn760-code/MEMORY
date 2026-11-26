@@ -72,3 +72,7 @@ Revisión del 16/11/2026: se leyeron las 32 páginas, incluidas las figuras. Có
 ## Estado (17/11/2026)
 
 Aplicado en `docs/informe/EDD_EF_Grupo07_corregido.docx`. Además se encontró que **ninguna foto muestra el carrito de S/ 199.97 con "Usted ahorra S/ 20.00"**: la Imagen 3 real es un carrito de 8 prendas por S/ 510.85 sin ahorro, y el QR es por S/ 510.85 (no S/ 131.18). El Word usa el carrito A como caso de validación y deja una nota amarilla para que el equipo agregue la foto o lo declare construido.
+
+## Estado (25/11/2026)
+
+Informe final _2 (42 págs.) revisado contra RIPLEY_: alineado con el código. Corregidos plataforma (.NET 9 STS), PC1, PC2, PC5, 4.3, 5.2, Tablas 1.4, 8 y 9, CP-16 y la bitácora fila 6 (REF 3135 a 3137). Ya no aparecen S/ 131.18 ni “6******0”. Opcional: la bitácora usa 22/08/2026 y la Tabla 1.4 y las fotos, 16/11/2026.
